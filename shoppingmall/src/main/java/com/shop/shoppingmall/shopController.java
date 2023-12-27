@@ -14,7 +14,7 @@ public class shopController {
 	@GetMapping("/main")
     public String main() {
 		
-    	return "pages/forms/editors";
+    	return "pages/tables/data";
     }
 	
 	
