@@ -4,8 +4,8 @@
     <title>Members List</title>
 </head>
 <body>
-<a href="/main">main</a>
     <h1>Members</h1>
+    <form action="/member" method="post">
     <div>
         <ul>
             <li th:each="member : ${members}">
@@ -18,5 +18,6 @@
             </li>
         </ul>
     </div>
+    </form>
 </body>
 </html>

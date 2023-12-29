@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.shop.shoppingmall.repository.membersMapper">
+  <!-- 전체 멤버 조회를 위한 SELECT 쿼리 -->
+    <select id="selectAllMembers" resultType="com.shop.members.members">
+        SELECT * FROM toy_members
+    </select>
+
+    <!-- 추가적으로 필요한 SQL 쿼리들을 여기에 더 작성할 수 있습니다. -->
+
+</mapper>
