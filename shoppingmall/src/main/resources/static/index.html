@@ -5,18 +5,6 @@
 </head>
 <body>
 <a href="/main">main</a>
-    <h1>Members</h1>
-    <div>
-        <ul>
-            <li th:each="member : ${members}">
-                <span th:text="${member.memberName}">Name</span>
-                <!-- 기타 멤버 정보 출력 -->
-                <span th:text="${member.memberId}">ID</span>
-                <span th:text="${member.memberEmail}">Email</span>
-                <span th:text="${member.memberPhone}">Phone</span>
-                <!-- 다른 필드들도 필요에 따라 추가 -->
-            </li>
-        </ul>
-    </div>
+<a href="login" class="btn btn-primary" id="loginButton">login</a>
 </body>
 </html>

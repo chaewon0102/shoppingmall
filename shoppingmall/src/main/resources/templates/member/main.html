@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Home</title>
+</head>
+<body>
+    <h1>Home</h1>
+    <div th:if="${memberId != null}">
+        <p>Welcome, <span th:text="${memberId}">Member ID</span>!</p>
+    </div>
+    <a href="/logout">Logout</a>
+</body>
+</html>
